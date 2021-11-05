@@ -6,8 +6,8 @@
   "scripts": {
     "start": "gulp",
     "dev": "gulp dev",
-    "build": "NODE_ENV=prod gulp build",
-    "build:prod": "NODE_ENV=prod gulp build-prod",
+    "build": "NODE_ENV=prod gulp build --output public",
+    "build:prod": "NODE_ENV=prod gulp build-prod --output public",
     "clean": "gulp clean"
   },
   "keywords": [],
